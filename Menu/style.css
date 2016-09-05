@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+.menu>li{
+    list-style: none;
+    text-transform: uppercase; /*chữ hoa */
+    display: inline; /*theo 1 hàng*/
+    margin: 15px;
+    color: #3acec2;
+    font-weight: bold;
+}
+.header{
+    display: flex; /*tạo hộp flex */
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+}
+p{
+    color: #3acec2;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 35px;
+}
+.body, .body>ul{
+    height: 300px;
+    background: #3acec2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-grow: 1;
+    align-items: center;
+}
+.menu{
+    margin-right: 35px;
+}
+.body>ul>li{
+    color: #fff;
+    list-style: none;
+    font-size: 72px;
+    display: inline;
+}
